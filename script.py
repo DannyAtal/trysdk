@@ -1,4 +1,5 @@
 import os
+os.chdir("output")
 path = "my-treerd-folder"
 print(os.environ['CNVRG_JOB_ID'])
 os.mkdir(path)
